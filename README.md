@@ -1,6 +1,6 @@
 ### Sample project for the Prometheus course Web Programming
 
-[CodePen Link](#)
+[CodePen Link](https://codepen.io/paalso/pen/XWJJpWX)
 
 [Course link](https://edx.prometheus.org.ua/courses/LITS/110/2017_T1/courseware/)
 
