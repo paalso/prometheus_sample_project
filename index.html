@@ -1,93 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>My Firts Page</title>
-		<meta charset="UTF-8">
-<!-- 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css"> -->
-	</head>
-	<body>
-        <header class="main-header">
-            <div class="container">
-                <h1>Main Header Here</h1>
-                <h2>And small sub header</h2>
+  <head>
+    <title>My First Page</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1>Main Header Here</h1>
+        <h2><small>And small sub header</small></h2>
+      </div>
+    </header>
+    <nav class="page-navigation">
+      <div class="container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <form class="login" action="#" method="POST">
+          <input type="text" placeholder="Login" required />
+          <input type="password" placeholder="Password" required />
+          <input type="submit" value="Sign In" />
+        </form>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <h2 class="collection-title">
+          Image Collection <small>Visualize Quality</small>
+        </h2>
+        <div class="collection">
+          <div class="collection-item-outer">
+            <div class="collection-item">
+              <img src="img/image.jpg" alt="Image" />
+              <div class="collection-text">
+                <h3>List Element Item List Element Item List Element Item</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quaerat voluptate, blanditiis molestias voluptatem culpa
+                  nulla? Repudiandae laboriosam necessitatibus aspernatur dolore
+                  mollitia dignissimos quae porro accusamus, a dicta
+                  repellendus, itaque deleniti!
+                </p>
+                <button>Read More...</button>
+              </div>
             </div>
-        </header>
-        <nav class="page-navigation">
-            <div class="container">
-                <ul>
-                    <li><a href="#">Home</a>Home</li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-                <form action="#" method="POST">
-                    <input type="text" placeholder="Login" required>
-                    <input type="password" placeholder="Password" required>
-                    <input type="submit" value="Sign In">
-                </form>
+          </div>
+          <div class="collection-item-outer">
+            <div class="collection-item">
+              <img src="img/image.jpg" alt="Image" />
+              <div class="collection-text">
+                <h3>List Element Item</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quaerat voluptate, blanditiis molestias voluptatem culpa
+                  nulla? Repudiandae laboriosam necessitatibus aspernatur dolore
+                  mollitia dignissimos quae porro accusamus, a dicta
+                  repellendus, itaque deleniti!
+                </p>
+                <button>Read More...</button>
+              </div>
             </div>
-        </nav>
-        <main>
-            <div class="container">
-                <div class="collection">
-                    <h2 class="collection-title">Image Collection <small>Visualize Quality</small></h2>
-                    <div class="collection-item-outer">
-                        <div class="collection-item">
-                            <img src="img/image.jpg" alt="Image">
-                            <h3 class="List Element Item"></h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate, blanditiis molestias voluptatem culpa nulla? Repudiandae laboriosam necessitatibus aspernatur dolore mollitia dignissimos quae porro accusamus, a dicta repellendus, itaque deleniti!
-                            </p>
-                            <button>Read More...</button>
-                        </div>
-                    </div>
-                    <div class="collection-item-outer">
-                        <div class="collection-item">
-                            <img src="img/image.jpg" alt="Image">
-                            <h3 class="List Element Item"></h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate, blanditiis molestias voluptatem culpa nulla? Repudiandae laboriosam necessitatibus aspernatur dolore mollitia dignissimos quae porro accusamus, a dicta repellendus, itaque deleniti!
-                            </p>
-                            <button>Read More...</button>
-                        </div>
-                    </div>
-                    <div class="collection-item-outer">
-                        <div class="collection-item">
-                            <img src="img/image.jpg" alt="Image">
-                            <h3 class="List Element Item"></h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate, blanditiis molestias voluptatem culpa nulla? Repudiandae laboriosam necessitatibus aspernatur dolore mollitia dignissimos quae porro accusamus, a dicta repellendus, itaque deleniti!
-                            </p>
-                            <button>Read More...</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="collection">
-                    <h2 class="collection-title">Video Collection <small>Visualize Quality</small></h2>
-                    <div class="collection-item-outer">
-                        <div class="collection-item">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0gPtzmUOd1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <h3 class="List Element Item"></h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate, blanditiis molestias voluptatem culpa nulla? Repudiandae laboriosam necessitatibus aspernatur dolore mollitia dignissimos quae porro accusamus, a dicta repellendus, itaque deleniti!
-                            </p>
-                            <button>Read More...</button>
-                        </div>
-                        <div class="collection-item">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0gPtzmUOd1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <h3 class="List Element Item"></h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate, blanditiis molestias voluptatem culpa nulla? Repudiandae laboriosam necessitatibus aspernatur dolore mollitia dignissimos quae porro accusamus, a dicta repellendus, itaque deleniti!
-                            </p>
-                            <button>Read More...</button>
-                        </div>
-                        <div class="collection-item">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0gPtzmUOd1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <h3 class="List Element Item"></h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptate, blanditiis molestias voluptatem culpa nulla? Repudiandae laboriosam necessitatibus aspernatur dolore mollitia dignissimos quae porro accusamus, a dicta repellendus, itaque deleniti!
-                            </p>
-                            <button>Read More...</button>
-                        </div>                        
-                    </div>
-                </div>
-        </main>
-        <footer>
-            <p>Copyright © Example.com 2015</p>
-        </footer>
-	</body>
+          </div>
+          <div class="collection-item-outer">
+            <div class="collection-item">
+              <img src="img/image.jpg" alt="Image" />
+              <div class="collection-text">
+                <h3>List Element Item</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quaerat voluptate, blanditiis molestias voluptatem culpa
+                  nulla? Repudiandae laboriosam necessitatibus aspernatur dolore
+                  mollitia dignissimos quae porro accusamus, a dicta
+                  repellendus, itaque deleniti!
+                </p>
+                <button>Read More...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="collection-title">
+          Image Collection <small>Visualize Quality</small>
+        </h2>
+        <div class="collection">
+          <div class="collection-item-outer">
+            <div class="collection-item">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/0gPtzmUOd1U"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="collection-text">
+                <h3>List Element Item</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quaerat voluptate, blanditiis molestias voluptatem culpa
+                  nulla? Repudiandae laboriosam necessitatibus aspernatur dolore
+                  mollitia dignissimos quae porro accusamus, a dicta
+                  repellendus, itaque deleniti!
+                </p>
+                <button>Read More...</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection-item-outer">
+            <div class="collection-item">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/0gPtzmUOd1U"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="collection-text">
+                <h3>List Element Item</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quaerat voluptate, blanditiis molestias voluptatem culpa
+                  nulla? Repudiandae laboriosam necessitatibus aspernatur dolore
+                  mollitia dignissimos quae porro accusamus, a dicta
+                  repellendus, itaque deleniti!
+                </p>
+                <button>Read More...</button>
+              </div>
+            </div>
+          </div>
+          <div class="collection-item-outer">
+            <div class="collection-item">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/0gPtzmUOd1U"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="collection-text">
+                <h3>List Element Item</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quaerat voluptate, blanditiis molestias voluptatem culpa
+                  nulla? Repudiandae laboriosam necessitatibus aspernatur dolore
+                  mollitia dignissimos quae porro accusamus, a dicta
+                  repellendus, itaque deleniti!
+                </p>
+                <button>Read More...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <p>Copyright © Example.com 2015</p>
+      </div>
+    </footer>
+  </body>
 </html>

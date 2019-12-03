@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.main-header {
+    padding: 50px 0;
+    background-color: yellowgreen;
+}
+
+.main-header h1,
+.main-header h2 {
+    color: greenyellow;
+    text-align: center;
+}
+
+.page-navigation {
+    min-height: 64px;
+    background-color: #222222;
+    border-color: #101010;
+}
+
+.page-navigation li {
+    float: left;
+    width: 100px;
+}
+
+.page-navigation a {
+    display: block;
+    color: #9d9d9d;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.page-navigation a:hover {
+    background: #000000;
+    color: greenyellow;
+}
+
+.page-navigation .login {
+    float: right;
+    padding: 15px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-right: 5px;
+    outline: none;
+    
+}
+
+input[type="submit"] {
+    padding: 5px 15px;
+    background-color: #dddddd;
+}
+
+input[type="submit"]:hover {
+    background-color: #9a9a9a;
+    color: #ffffff;
+}
+
+.collection-title {
+    padding-bottom: 5px;
+    font-size: 36px;
+    border-bottom: 1px solid #777777;
+}
+
+.collection-title small {
+    font-size: 70%;
+    color: #a9a9a9;
+}
+
+.collection-item-outer {
+    /* display: inline-block; */
+    float: left;
+    width: 33.3%;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.collection:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.collection-item-outer:first-child {
+    padding-left: 0;
+    padding-right: 10px;
+} 
+
+.collection-item-outer:last-child {
+    padding-right: 0;
+    padding-left: 10px;
+} 
+
+.collection-item {
+    border: solid 1px #959595;
+}
+
+.collection-item img,
+.collection-item iframe {
+    width: 100%;
+}
+
+.collection-item .collection-text {
+    padding: 0 20px 20px 20px;
+}
+
+.collection-text h3 {
+    color: yellowgreen;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.collection-text p {
+    max-height: 85px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 1.3em;
+}
+
+.collection-item button {
+    padding: 10px;
+    background-color: #dddddd;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+.collection-item button:hover {
+    background-color: #9a9a9a;
+    color: #ffffff;
+}
+
+.main-footer {
+    margin-top: 30px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: yellowgreen;
+}
